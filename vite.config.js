@@ -10,7 +10,7 @@ export default defineConfig({
   // 포트번호가 다를 경우 Cross-origin으로 간주하고 차단(CORS)
   server : {
     proxy : {
-      '/api' : 'http://localhost:8088'
+      '/api' : 'http://3.26.65.54:8088'
     }
   }
 })

@@ -18,7 +18,7 @@ const GoodsDetail = () => {
   //getGoods함수를 구현하시오.
   //요청URL : http://localhost:3000/goods_list/상품id
   const getGood = async () => {
-    let res = await axios.get(`http://localhost:8088/lunch/api/goods_list/${id}`);
+    let res = await axios.get(`http://3.26.65.54:8088/lunch/api/goods_list/${id}`);
     let data = res.data;
     console.log(data);
     setGood(data);
